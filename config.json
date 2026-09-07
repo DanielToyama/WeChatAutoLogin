@@ -1,0 +1,23 @@
+{
+  "process_names": ["Weixin.exe", "WeChat.exe"],
+  "title_keywords": ["微信", "Weixin", "WeChat"],
+  "template_file": "greenButton.jpg",
+  "click_method": "message",
+  "match_threshold": 0.85,
+  "match_scales": [0.75, 0.8, 0.9, 1.0, 1.1, 1.2, 1.25, 1.33, 1.5],
+  "process_wait_timeout": 300,
+  "window_wait_timeout": 120,
+  "no_window_grace": 8,
+  "poll_interval": 1.0,
+  "max_click_attempts": 4,
+  "pre_click_delay": 0.6,
+  "post_click_timeout": 15,
+  "verify_poll_interval": 0.5,
+  "growth_ratio": 1.2,
+  "min_window_area": 20000,
+  "login_max_area": 350000,
+  "watch": false,
+  "watch_interval": 30,
+  "log_file": "wechat_autologin.log",
+  "log_max_bytes": 262144
+}

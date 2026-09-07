@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime log
+wechat_autologin.log
+
+# Local reference screenshots (contain personal QR codes; not needed in the repo)
+main.jpg
+_current_window*.png
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# UPX toolchain (downloaded locally)
+_upx/
+_upx.zip
+
+# PyInstaller runtime/cache dirs used during builds/tests
+_pyinstaller_cache/
+_tmp/
